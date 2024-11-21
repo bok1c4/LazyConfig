@@ -19,16 +19,20 @@ return {
   opts = {
     workspaces = {
       {
-        name = "Notes",
-        path = "/Users/boris/Documents/obsidian-notes/notes/",
+        name = "rng-notes",
+        path = "/home/temp/Notes/rng/",
       },
       {
-        name = "Work",
-        path = "/Users/boris/Documents/obsidian-notes/work_notes/",
+        name = "devops",
+        path = "/home/temp/Notes/devops/",
       },
       {
-        name = "Faks",
-        path = "/Users/boris/Documents/obsidian-notes/faks_notes/",
+        name = "cybsec",
+        path = "/home/temp/Notes/cybsec/",
+      },
+      {
+        name = "uni",
+        path = "/home/temp/Notes/uni/",
       },
     },
 
