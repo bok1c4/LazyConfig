@@ -14,28 +14,13 @@ return {
     -- Required.
     "nvim-lua/plenary.nvim",
 
-    -- see below for full list of optional dependencies 👇
   },
   opts = {
     workspaces = {
       {
-        name = "rng-notes",
-        path = "/home/temp/Notes/rng/",
-      },
-      {
-        name = "devops",
-        path = "/home/temp/Notes/devops/",
-      },
-      {
-        name = "cybsec",
-        path = "/home/temp/Notes/cybsec/",
-      },
-      {
         name = "uni",
-        path = "/home/temp/Notes/uni/",
+        path = "/home/bok1c4/Notes/uni/",
       },
     },
-
-    -- see below for full list of options 👇
   },
 }
