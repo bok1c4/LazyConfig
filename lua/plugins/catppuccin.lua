@@ -7,6 +7,5 @@ return {
       transparent_background = true,
       -- You can add more configuration options here
     })
-    vim.cmd([[colorscheme catppuccin]])
   end,
 }

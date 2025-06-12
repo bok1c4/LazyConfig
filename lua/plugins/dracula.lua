@@ -45,13 +45,6 @@ return {
           ["mini.cursorword"] = true,
         },
       })
-      -- vim.cmd.colorscheme("dracula")
-      -- vim.cmd.colorscheme("dracula-soft")
-      -- vim.cmd([[colorscheme dracula-soft]])
-      -- vim.cmd([[colorscheme catppuccin-frappe]])
-      vim.cmd([[colorscheme catppuccin]])
-      -- vim.cmd([[colorscheme cyberdream]])
-      -- vim.cmd([[colorscheme ares]])
     end,
   },
   {
