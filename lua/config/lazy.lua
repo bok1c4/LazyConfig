@@ -14,6 +14,10 @@ vim.keymap.set("n", "gv", function()
   vim.lsp.buf.definition()
 end, { noremap = true, silent = true })
 
+-- transparency
+vim.g.gruvbox_material_background = "hard" -- or 'medium' or 'soft'
+vim.g.gruvbox_material_transparent_background = 1 -- enables transparency
+
 vim.opt.timeoutlen = 1000
 vim.opt.ttimeoutlen = 0
 require("lazy").setup({
